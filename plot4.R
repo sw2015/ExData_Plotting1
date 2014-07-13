@@ -14,3 +14,4 @@ with(data, { plot(Global_active_power~DateTime, type = "l", ylab = "Global Activ
 })
 dev.copy(png, file="plot4.png")
 dev.off()
+
